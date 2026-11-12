@@ -23,8 +23,6 @@ deploy/                  Nginx, políticas IAM y S3, PM2
 
 ## 1. Arquitectura
 
-![Arquitectura en AWS](docs/arquitectura-aws.png)
-
 | Pieza | Servicio | Qué hace |
 |---|---|---|
 | Servidor | **EC2** (Ubuntu 24.04) | Nginx sirve el frontend compilado y reenvía `/api/*` a Node (PM2, puerto 3000) |
